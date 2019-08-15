@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1366px;
+    min-height: 100%;
+    margin: 0 auto;
+}
+.padding-site{
+  padding: 0 98px;  
+}
+.footer{
+    height: 384px;
+    margin-top: -384px;
+}
+.header{
+   padding-top: 63px;
+    padding-left: 69px;  
+}
+.header-menu{
+    float: right;
+   
+}
+.header-menu img
+{
+    float: left;
+}
+
+.header-menu li{
+    float: left;
+   list-style: none;
+   }
+.header-menu a{
+    text-decoration: none;
+    color: #8c8c8c;
+   font-size: 14px;
+   font-weight: 300;
+    text-transform: uppercase;
+letter-spacing: 1.4px;
+padding: 5px 10px;}
+    
