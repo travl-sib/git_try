@@ -11,6 +11,14 @@ html,body{
     min-height: 100%;
     margin: 0 auto;
 }
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.clr{
+    height: 384px;
+}
 .padding-site{
   padding: 0 98px;  
 }
@@ -35,6 +43,9 @@ html,body{
     float: left;
    list-style: none;
    }
+.search{
+    color: #212121;
+}
 .header-menu a{
     text-decoration: none;
     color: #8c8c8c;
@@ -42,5 +53,339 @@ html,body{
    font-weight: 300;
     text-transform: uppercase;
 letter-spacing: 1.4px;
-padding: 5px 10px;}
+padding: 5px 10px;
+}
+
+.header-menu a:hover{
+  color: #212121;
+    border-bottom: 3px solid #212121;
+}
+.nav {
+  background-color: #f4f4f4; 
+    min-height: 70px;
+    margin-top: 29px;
+}
+.nav ul{
+    padding-left:  360px; 
+    padding-top: 28px;
+}
+.nav li{
+   float: left; 
+    list-style: none;
+    padding-right: 36px;
+  }
+.nav a{
+color: #6c6c6c;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+text-decoration: none;
+}
+.nav a:hover{
+    color: #212121;
+}
+a:active{
+   text-shadow: 5px 5px 10px #666666;
+}
+.deal{
+        padding-top: 72px;
+}
+.main-chair{
+   
+}
+.sliding-chair{
+     float: left;
+    margin-right:  56px;
+}
+.sliding-change{
+    max-width: 570px;
+    clear: both;
+    text-align: center;
+        padding-top: 11px;
+}
+.sliding-change img{
+    padding-right: 7px;
+}
+.chair-proposal{
+    text-align: center;
+   width: 510px;
+    overflow-x: hidden;
+   
+}
+.chair-proposal h2{
+ color: #212121;
+font-size: 36px;
+font-weight: 700; 
+    margin-top: 47px;
+    margin-bottom: 10px;
+}
+.chair-proposal h4{
+    color: #e53935;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+    letter-spacing: 1.8px;
+     margin-bottom: 15px;
+}
+.price{
+   color: #212121;
+font-weight: 300;
+font-size: 72px;
+    margin-bottom: 25px;
+}
+.price:first-letter{
+    font-size: 48px;}
+.price span{
+    font-size: 36px;
+}
+.text-chair {
+  text-align: left;
+      margin-top: 49px;
     
+}
+.text-chair span{
+  color: #212121;
+font-size: 16px;
+font-weight: 300;
+letter-spacing: 0.4px; 
+display: block;
+    padding-bottom: 16px;
+     text-align: left;
+   }
+.red-button{
+   box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+border-radius: 35px;
+background-color: #f44336; 
+ color: #ffffff;
+font-size: 22px;
+font-weight: 700;
+text-transform: uppercase;
+text-decoration: none;
+letter-spacing: 4.4px; 
+width: 510px;height: 71px;  
+    display: table-cell;
+    vertical-align: middle;
+}
+.red-button i{
+    visibility: hidden;
+}
+.red-button:hover i{
+    visibility:visible;
+}
+.red-button:active {
+    background-color: #d02010; 
+}
+.related{
+    margin-top: 245px;
+    margin-bottom: 120px;
+}
+.related h3{
+   color: #212121;
+font-size: 36px;
+font-weight: 700;
+    float: left;
+}
+.related>a {
+    color: #212121;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 3.6px;
+    float: right;
+    text-decoration: none;
+    padding-top: 10px;
+}
+.related>a i{
+    visibility: hidden;}
+.related>a:hover i{
+    visibility: visible;}
+
+.related ul{
+clear: both;
+}
+.related li:last-child{
+margin-right: 0px;
+}
+.related li{
+    float: left;
+    list-style-type: none;
+    margin-right: 30px;
+    margin-top: 71px;
+}
+.footer{
+    background-color: #f7f7f7;
+    max-width: 1366px;
+    margin: 0 auto;
+    
+}
+.footer-inform{
+    display: inline-block;
+}
+.footer-inform h3{
+    color: #6c6c6c;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+    padding-bottom: 24px;
+}
+.footer-contact{
+    margin-top: 120px;
+    margin-bottom: 77px;
+    margin-right: 81px;
+    margin-left: 98px;
+    float:left;
+    max-width: 221px;
+    min-height: 102px;
+}
+.footer-contact p{
+    color: #212121;
+font-size: 14px;
+font-weight: 300;
+ line-height: 22px;   
+}
+.footer-contact p:nth-child(even){
+    padding-bottom: 18px;}
+
+.footer-intouch a{
+    background-color: #fff;
+    color: #6c6c6c;
+    text-decoration: none;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #d9dee1;;
+    display: inline-block;
+    line-height: 48px;
+width: 30px;}
+.footer-intouch input{
+    height: 48px;
+    width: 328px;
+     border: 1px solid #d9dee1;
+    border-right: 0px;
+    padding-left: 10px;
+   
+}
+.footer-useful{
+  margin-top: 120px;
+    margin-bottom: 77px;
+     
+    float:left;
+    min-height: 101px;
+}
+.footer-useful ul{
+    float: left;
+    margin-right: 81px;
+}
+.footer-useful li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+.footer-useful a{
+    text-decoration: none;
+color: #212121;
+font-size: 14px;
+font-weight: 700;
+text-transform: uppercase;
+
+letter-spacing: 0.7px;}
+.footer-useful a:hover{
+    text-decoration: underline;}
+.footer-useful a:active{
+    text-decoration:overline;}
+.footer-intouch{
+  width: 370px;  
+    overflow-x: hidden;
+    margin-top: 120px;
+    margin-bottom: 77px;
+    margin-right: 0px;
+}
+
+.footer-intouch p{
+    color: #212121;
+font-size: 14px;
+font-weight: 300;
+    padding-bottom: 20px;}
+.copyright{
+    padding-bottom: 38px;
+     padding-right: 100px;
+    padding-left: 98px;
+    position: relative;
+    clear: both;
+}
+
+.copyrightlinks{
+    position: absolute;
+    margin-right: 98px;
+    right: 0%;
+   
+   }
+    .copyrightlinks a{
+    text-decoration: none;
+         color: #6c6c6c;
+font-size: 12px;
+font-weight: 700;
+    text-transform: uppercase;
+}
+ .copyrightlinks a:hover{
+     text-decoration: underline;}
+.social{
+    position: absolute;
+    left: 50%;
+  bottom: 38px;
+   }
+.contactus{
+  background-color: #f5f5f5;
+}
+.contactus h1{
+color: #212121;
+font-size: 62px;
+font-weight: 400;
+    padding-left: 101px;
+    padding-top: 140px;
+    padding-bottom: 56px;}
+.contactdetails {
+    margin-top: 71px;
+margin-bottom: 122px;}
+
+.contactdetails li{
+    display: table-cell;
+    float: left;
+    height: 370px;width: 370px;
+    outline: 1px solid #9c9c9c;
+    text-align: center;
+    margin-right: 30px;
+    
+}
+.contactdetails li:last-child{
+   margin-right: 0px;  
+}
+.contactdetails a{
+    text-decoration: none;
+}
+.contactdetails i{
+    font-size: 48px;
+    transform: scaleX(1.4);
+    padding-top: 48px;
+    color: #212121;}
+.contactdetails h3{
+ color: #212121;
+font-size: 22px;
+font-weight: 700;
+text-transform: uppercase;
+    padding-top: 34px;
+}
+.contactdetails h4{
+    font-weight: 300;
+    font-size: 14px;
+    color: #6c6c6c;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.details{
+    font-size: 14px;
+       font-weight: 700;
+    
+}
+.final{
+   color: #9d9d9d;
+    font-size: 14px;
+}
